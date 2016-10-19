@@ -1,0 +1,22 @@
+app: user-center
+
+---
+
+spring:
+  profiles: dev
+
+app: user-center-dev
+
+---
+
+spring:
+  profiles: qa
+
+app: user-center-qa
+
+---
+
+spring:
+  profiles: prod
+
+app: user-center-prod
