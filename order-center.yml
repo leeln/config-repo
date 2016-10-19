@@ -1,0 +1,22 @@
+app: order-center
+
+---
+
+spring:
+  profiles: dev
+
+app: order-center-dev
+
+---
+
+spring:
+  profiles: qa
+
+app: order-center-qa
+
+---
+
+spring:
+  profiles: prod
+
+app: order-center-prod
